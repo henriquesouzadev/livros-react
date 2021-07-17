@@ -12,7 +12,7 @@ export const GlobalHeader = ({ children }) => {
       if (inputValue !== '') {
          let newList;
 
-         const response = await fetch(`https://www.googleapis.com/books/v1/volumes${value && '?q=' + value}`, { method: 'GET' });
+         const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=${value && value}&maxResults=20`, { method: 'GET' });
          const { totalItems, items } = await response.json();
 
          if (totalItems === 0) {
