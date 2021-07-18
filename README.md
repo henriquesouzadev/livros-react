@@ -4,11 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Install styled components
 
-with npm:
+```bash
 npm install --save styled-components
-
-with yarn:
+# or
 yarn add styled-components
+```
 
 ## Available Scripts
 
