@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Install styled components
+
+# with npm
+npm install --save styled-components
+
+# with yarn
+yarn add styled-components
+
 ## Available Scripts
 
 In the project directory, you can run:
